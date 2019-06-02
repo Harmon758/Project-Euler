@@ -1,12 +1,10 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-for i in range(T):
-	Sum = 0
-	N = int(raw_input())
-	Temp = (N - 1) // 3
-	Sum += (Temp * (3 + Temp * 3)) // 2
-	Temp = (N - 1) // 5
-	Sum += (Temp * (5 + Temp * 5)) // 2
-	Temp = (N - 1) // 15
-	Sum -= (Temp * (15 + Temp * 15)) // 2
-	print Sum
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    multiples_of_3 = (N - 1) // 3
+    multiples_of_5 = (N - 1) // 5
+    multiples_of_15 = (N - 1) // 15
+    sum = (3 * multiples_of_3 * (multiples_of_3 + 1) // 2
+           + 5 * multiples_of_5 * (multiples_of_5 + 1) // 2
+           - 15 * multiples_of_15 * (multiples_of_15 + 1) // 2)
+    print(sum)
