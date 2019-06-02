@@ -1,4 +1,1 @@
-Project_Euler
-=============
-
-Project Euler + Hacker Rank: https://www.hackerrank.com/contests/projecteuler/challenges
+# [Project Euler](https://projecteuler.net) and [ProjectEuler+ on HackerRank](https://www.hackerrank.com/contests/projecteuler)
