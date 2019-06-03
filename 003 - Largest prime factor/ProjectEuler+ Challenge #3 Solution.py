@@ -1,16 +1,21 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-for i in range(0, T):
-    Largest = 0
-    N = int(raw_input())
-    Factor = N
-    while Factor != 1:
-        for j in xrange(2, int(Factor ** 0.5 + 1)):
-            if Factor % j == 0:
-                Largest = j
-                Factor /= j
+T = int(input())
+for _ in range(T):
+    N = number = int(input())
+    largest = 2
+    while not number % 2:
+        number //= 2
+    factor = 3
+    max_factor = number ** 0.5
+    while factor <= max_factor:
+        if not number % factor:
+            largest = factor
+            number //= factor
+            while not number % factor:
+                number //= factor
+            if number == 1:
+                print(largest)
                 break
-        else:
-            Largest = Factor
-            break
-    print Largest
+            max_factor = number ** 0.5
+        factor += 2
+    else:
+        print(number)
