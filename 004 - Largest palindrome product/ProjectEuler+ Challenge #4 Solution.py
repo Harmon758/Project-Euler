@@ -1,22 +1,21 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-for i in range(T):
-	N = int(raw_input())
-	Flag = 0
-	Largest = 0
-	for j in range(999, 142, -1):
-		for k in range(999, 100, -1):
-			Product = j * k
-			if Product < 100000:
-				break
-			Reverse = 0
-			while Product != 0:
-				Temp = Product % 10
-				Reverse = Reverse * 10 + Temp
-				Product /= 10
-			Product = j * k
-			if Product < N and Reverse == Product:
-				break
-		if Product > Largest:
-			Largest = Product
-	print Largest
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    largest = 0
+    limit = N - 1
+    for number_1 in range(999, 100, -1):
+        if number_1 % 11:
+            start = min(990, limit // number_1 // 11 * 11)
+            step = -11
+        else:
+            start = min(999, limit // number_1)
+            step = -1
+        for number_2 in range(start, number_1, step):
+            product = number_1 * number_2
+            if product <= largest:
+                break
+            product_str = str(product)
+            if product_str == product_str[::-1]:
+                largest = product
+                break
+    print(largest)
