@@ -1,38 +1,41 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 int main() {
-    int T, N, Product = 0, Flag = 0, Reverse = 0, Temp = 1, Largest = 0;
+    int T, N, largest, limit, start, step, temp, product, reverse;
     scanf("%d", &T);
-    for(int i = 0; i < T; i++){
+    for (int _ = 0; _ < T; _++) {
         scanf("%d", &N);
-        Flag = 0;
-        Largest = 0;
-        for(int j = 999; j > 142; j--){
-            for(int k = 999; k > 100; k--){
-                Product = j * k;
-                if(Product < 100000){
-                    break;
-                }
-                Reverse = 0;
-                while(Product != 0){
-                    Temp = Product % 10;
-                    Reverse = Reverse * 10 + Temp;
-                    Product = Product / 10;
-                }
-                Product = j * k;
-                if(Product < N && Reverse == Product){
-                    break;
-                }
+        largest = 0;
+        limit = N - 1;
+        for (int num_1 = 999; num_1 > 100; num_1--) {
+            if (num_1 % 11 != 0) {
+                temp = limit / num_1 / 11 * 11;
+                start = 990 < temp ? 990 : temp;
+                step = -11;
+            } else {
+                temp = limit / num_1;
+                start = 999 < temp ? 999 : temp;
+                step = -1;
             }
-            if(Product > Largest){
-                Largest = Product;
+            for (int num_2 = start; num_2 > num_1; num_2 += step) {
+                product = num_1 * num_2;
+                if (product <= largest) {
+                    break;
+                }
+                reverse = 0;
+                temp = product;
+                while (temp != 0) {
+                    reverse *= 10;
+                    reverse += temp % 10;
+                    temp /= 10;
+                }
+                if (reverse == product) {
+                    largest = product;
+                    break;
+                }
             }
         }
-        printf("%d\n", Largest);
+        printf("%d\n", largest);
     }
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
