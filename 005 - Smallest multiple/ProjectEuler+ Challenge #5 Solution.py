@@ -1,14 +1,13 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
 def gcd(a, b):
-    if b == 0:
-        return a
-    else:
+    if b:
         return gcd(b, a % b)
+    else:
+        return a
 
-T = int(raw_input())
-for i in range(T):
-	Product = 1
-	N = int(raw_input())
-	for j in range(2, N + 1):
-		Product = Product * j / gcd(Product, j)
-	print Product
+T = int(input())
+for _ in range(T):
+    product = 1
+    N = int(input())
+    for number in range(2, N + 1):
+        product *= number // gcd(product, number)
+    print(product)
