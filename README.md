@@ -6,4 +6,5 @@
 [Problem 4/Challenge #4: Largest palindrome product](004%20-%20Largest%20palindrome%20product)  
 [Problem 5/Challenge #5: Smallest multiple](005%20-%20Smallest%20multiple)  
 [Problem 6/Challenge #6: Sum square difference](006%20-%20Sum%20square%20difference)  
+[Problem 7/Challenge #7: 10001st prime](007%20-%2010001st%20prime)  
 [Problem 92/Challenge #92: Largest prime factor](092%20-%20Square%20digit%20chains)  
