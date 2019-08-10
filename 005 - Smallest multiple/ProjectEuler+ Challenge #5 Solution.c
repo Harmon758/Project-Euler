@@ -1,27 +1,23 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 int main() {
-    int T, N, Product = 1;
+    int T, N, product;
     scanf("%d", &T);
-    for(int i = 0; i < T; i++){
-        Product = 1;
+    for (int _ = 0; _ < T; _++) {
+        product = 1;
         scanf("%d", &N);
-        for(int j = 2; j <= N; j++){
-            Product = Product * j / gcd(Product, j);
+        for (int number = 2; number <= N; number++) {
+            product *= number / gcd(product, number);
         }
-        printf("%d\n", Product);
+        printf("%d\n", product);
     }
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
 
-int gcd(int a, int b){
-    if(b == 0){
-        return a;
-    } else{
+int gcd(int a, int b) {
+    if (b != 0) {
         return gcd(b, a % b);
+    } else {
+        return a;
     }
 }
