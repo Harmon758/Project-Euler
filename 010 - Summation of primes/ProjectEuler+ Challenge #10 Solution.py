@@ -1,29 +1,24 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-A = [True]*(10 ** 6)
-B = []
-Sums = []
-Sums.append(0)
-for j in xrange(2, 10 ** 3):
-    if A[j] == True:
-        B.append(j)
-        Sums.append(Sums[len(Sums) - 1] + j)
-        for k in xrange(j * j, 10 ** 6, j):
-            A[k] = False
-for j in xrange(10 ** 3, 10 ** 6):
-    if A[j] == True:
-        B.append(j)
-        Sums.append(Sums[len(Sums) - 1] + j)
-B.append(10 ** 6 + 1)
-for i in range(0, T):
-    N = int(raw_input())
-    Count = len(B) / 2
-    Interval = len(B) / 4
-    while B[Count] <= N or B[Count - 1] > N:
-        if B[Count] > N:
-            Count -= Interval
-        else:
-            Count += Interval
-        if Interval != 1:
-            Interval /= 2
-    print Sums[Count]
+from bisect import bisect
+from math import sqrt
+
+LIMIT = 2_000_000
+
+sieve = [True] * LIMIT
+primes = []
+sums = [0]
+for number in range(2, int(sqrt(LIMIT))):
+    if sieve[number]:
+        primes.append(number)
+        sums.append(sums[-1] + number)
+        for multiple in range(number * number, LIMIT, number):
+            sieve[multiple] = False
+for number in range(int(sqrt(LIMIT)), LIMIT):
+    if sieve[number]:
+        primes.append(number)
+        sums.append(sums[-1] + number)
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    index = bisect(primes, N)
+    print(sums[index])
