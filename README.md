@@ -9,4 +9,5 @@
 [Problem 7/Challenge #7: 10001st prime](007%20-%2010001st%20prime)  
 [Problem 8/Challenge #8: Largest product in a series](008%20-%20Largest%20product%20in%20a%20series)  
 [Problem 9/Challenge #9: Special Pythagorean triplet](009%20-%20Special%20Pythagorean%20triplet)  
+[Problem 10/Challenge #10: Summation of primes](010%20-%20Summation%20of%20primes)  
 [Problem 92/Challenge #92: Largest prime factor](092%20-%20Square%20digit%20chains)  
