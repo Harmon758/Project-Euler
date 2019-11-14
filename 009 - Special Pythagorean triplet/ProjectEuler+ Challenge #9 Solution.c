@@ -1,27 +1,22 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 int main() {
-    int T, N, Largest, l, k;
+    int T, N, largest, b, c, product;
     scanf("%d", &T);
-    for(int i = 0; i < T; i++){
+    for (int _ = 0; _ < T; _++) {
         scanf("%d", &N);
-        Largest = 0;
-        for(int j = 1; j <= N / 3; j++){
-            k = (2 * j * N - N * N) / (2 * j - 2 * N);
-            l = N - k - j;
-            if(l * l == k * k +  j * j && l * k * j > Largest){
-                Largest = l * k * j;
+        largest = -1;
+        for (int a = 1; a <= N / 3; a++) {
+            b = N * (a - N / 2) / (a - N);
+            c = N - a - b;
+            if (a * a + b * b == c * c) {
+                product = a * b * c;
+                if (product > largest) {
+                    largest = a * b * c;
+                }
             }
         }
-        if(Largest == 0){
-            printf("-1\n");
-        } else{
-            printf("%d\n", Largest);
-        }
+        printf("%d\n", largest);
     }
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
