@@ -8,8 +8,8 @@
 `Problem 8`_/`Challenge #8`_: Largest product in a series
 =========================================================
 
-The four adjacent digits in the 1000-digit number that have
-the greatest product are 9 × 9 × 8 × 9 = 5832.
+The four adjacent digits in the 1000-digit number that have the greatest
+product are 9 × 9 × 8 × 9 = 5832.
 
 .. raw:: html
 
@@ -36,8 +36,8 @@ the greatest product are 9 × 9 × 8 × 9 = 5832.
         71636269561882670428252483600823257530420752963450<br>
     </p>
 
-Find the thirteen adjacent digits in the 1000-digit number that have
-the greatest product. What is the value of this product?
+Find the thirteen adjacent digits in the 1000-digit number that have the
+greatest product. What is the value of this product?
 
 .. _ProjectEuler+ Problem Statement:
     ProjectEuler%2B%20Challenge%20%238%20Problem%20Statement.pdf
