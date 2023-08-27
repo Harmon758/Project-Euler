@@ -4,9 +4,9 @@
 .. _Challenge #4:
     https://www.hackerrank.com/contests/projecteuler/challenges/euler004/problem
 
-========================================================
-`Problem 4`_/`Challenge #4`_: Largest palindrome product
-========================================================
+==========================================================
+`Problem 4`_ / `Challenge #4`_: Largest palindrome product
+==========================================================
 
 A palindromic number reads the same both ways. The largest palindrome made from
 the product of two 2-digit numbers is 9009 = 91 × 99.
