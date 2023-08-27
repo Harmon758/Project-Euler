@@ -5,7 +5,7 @@
 | #                                                  | Name                        | Python  |    C    | Notes     |
 | -------------------------------------------------- | --------------------------- | :-----: | :-----: | :-------- |
 | [1](001%20-%20Multiples%20of%203%20and%205)        | Multiples of 3 or 5         | &check; | &check; | [^1] [^2] |
-| [2](002%20-%20Even%20Fibonacci%20numbers)          | Even Fibonacci numbers      | &check; | &check; | [^1]      |
+| [2](002%20-%20Even%20Fibonacci%20numbers)          | Even Fibonacci Numbers      | &check; | &check; | [^1] [^3] |
 | [3](003%20-%20Largest%20prime%20factor)            | Largest prime factor        | &check; |         | [^1]      |
 | [4](004%20-%20Largest%20palindrome%20product)      | Largest palindrome product  | &check; | &check; | [^1]      |
 | [5](005%20-%20Smallest%20multiple)                 | Smallest multiple           | &check; | &check; | [^1]      |
@@ -20,3 +20,6 @@
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Previously named "Multiples of 3 and 5": https://projecteuler.chat/viewtopic.php?t=7316.
       The ProjectEuler+ Challenge still has this name.
+[^3]: Project Euler Problem (Descriptions /) Titles previously did not use title case:
+      https://web.archive.org/web/20230528105433/https://projecteuler.net/archives.
+      This is still reflected in the ProjectEuler+ Challenge name.
