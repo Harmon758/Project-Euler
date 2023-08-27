@@ -1,44 +1,46 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-def Divisors(Number, Primes):
-    Divisor_Count = 1
-    Factor = Number
-    for i in range(0, len(Primes)):
-        if Primes[i] ** 2 > Factor:
-            return Divisor_Count * 2
-        Count = 1
-        while Factor % Primes[i] == 0:
-            Count += 1
-            Factor = Factor / Primes[i]
-        Divisor_Count *= Count
-        if Factor == 1:
-            return Divisor_Count
-    return Divisor_Count
+from math import sqrt
 
-T = int(raw_input())
-A = []
-Primes = []
-for j in xrange(0, 10 ** 4):
-    A.append(True)
-for j in xrange(2, 10 ** 2):
-    if A[j] == True:
-        Primes.append(j)
-        for k in xrange(j * j, 10 ** 4, j):
-            A[k] = False
-for j in xrange(10 ** 2, 10 ** 4):
-    if A[j] == True:
-        Primes.append(j)
-for i in range(0, T):
-    N = int(raw_input())
-    Count = 2
-    Divisor_Count = 0
-    Odd = 1
-    Even = 1
-    while Divisor_Count <= N:
-        if Count % 2 == 0:
-            Even = Divisors(Count + 1, Primes)
-            Divisor_Count = Even * Odd
+LIMIT = 10_000
+
+sieve = [True] * LIMIT
+primes = []
+for number in range(2, int(sqrt(LIMIT))):
+    if sieve[number]:
+        primes.append(number)
+        for multiple in range(number * number, LIMIT, number):
+            sieve[multiple] = False
+for number in range(int(sqrt(LIMIT)), LIMIT):
+    if sieve[number]:
+        primes.append(number)
+
+def divisors(number):
+    divisor_count = 1
+    factor = number
+    for prime in primes:
+        if prime ** 2 > factor:
+            return divisor_count * 2
+        count = 1
+        while factor % prime == 0:
+            count += 1
+            factor //= prime
+        divisor_count *= count
+        if factor == 1:
+            return divisor_count
+    return divisor_count
+
+T = int(input())
+for testcase in range(T):
+    N = int(input())
+    count = 2
+    divisor_count = 0
+    odd = 1
+    even = 1
+    while divisor_count <= N:
+        if count % 2:
+            odd = divisors((count + 1) // 2)
+            divisor_count = even * odd
         else:
-            Odd = Divisors((Count + 1) / 2, Primes)
-            Divisor_Count = Even * Odd
-        Count += 1
-    print Count * (Count - 1) / 2
+            even = divisors(count + 1)
+            divisor_count = even * odd
+        count += 1
+    print(count * (count - 1) // 2)
