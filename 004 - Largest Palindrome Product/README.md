@@ -1,6 +1,6 @@
 [Problem 4](https://projecteuler.net/problem=4) /
 [Challenge #4](https://www.hackerrank.com/contests/projecteuler/challenges/euler004/problem):
-Largest palindrome product
+Largest Palindrome Product
 ==========================
 
 A palindromic number reads the same both ways. The largest palindrome made from
