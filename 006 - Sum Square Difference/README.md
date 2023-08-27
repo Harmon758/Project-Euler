@@ -1,6 +1,6 @@
 [Problem 6](https://projecteuler.net/problem=6) /
 [Challenge #6](https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem):
-Sum square difference
+Sum Square Difference
 =====================
 
 The sum of the squares of the first ten natural numbers is,
