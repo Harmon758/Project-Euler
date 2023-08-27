@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem
 
 ====================================================
-`Problem 3`_ / `Challenge #3`_: Largest prime factor
+`Problem 3`_ / `Challenge #3`_: Largest Prime Factor
 ====================================================
 
 The prime factors of 13195 are 5, 7, 13 and 29.
