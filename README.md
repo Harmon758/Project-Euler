@@ -8,7 +8,7 @@
 | [2](002%20-%20Even%20Fibonacci%20numbers)          | Even Fibonacci Numbers      | &check; | &check; | [^1] [^3] |
 | [3](003%20-%20Largest%20prime%20factor)            | Largest Prime Factor        | &check; |         | [^1] [^3] |
 | [4](004%20-%20Largest%20palindrome%20product)      | Largest Palindrome Product  | &check; | &check; | [^1] [^3] |
-| [5](005%20-%20Smallest%20multiple)                 | Smallest multiple           | &check; | &check; | [^1]      |
+| [5](005%20-%20Smallest%20multiple)                 | Smallest Multiple           | &check; | &check; | [^1] [^3] |
 | [6](006%20-%20Sum%20square%20difference)           | Sum square difference       | &check; |         | [^1]      |
 | [7](007%20-%2010001st%20prime)                     | 10001st prime               | &check; | &check; | [^1]      |
 | [8](008%20-%20Largest%20product%20in%20a%20series) | Largest product in a series | &check; |         | [^1]      |
