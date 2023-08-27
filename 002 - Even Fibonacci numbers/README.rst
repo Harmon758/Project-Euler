@@ -24,4 +24,4 @@ four million, find the sum of the even-valued terms.
 `ProjectEuler+ Problem Statement`_
 
 The Project Euler problem is equivalent to the ProjectEuler+ challenge with
-T = 1 and N = 4000000.
+T = 1 and N = 4 000 000.
