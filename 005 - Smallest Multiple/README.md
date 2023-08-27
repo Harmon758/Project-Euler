@@ -1,6 +1,6 @@
 [Problem 5](https://projecteuler.net/problem=5) /
 [Challenge #5](https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem):
-Smallest multiple
+Smallest Multiple
 =================
 
 $2520$ is the smallest number that can be divided by each of the numbers from

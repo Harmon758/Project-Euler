@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem
 
 =================================================
-`Problem 5`_ / `Challenge #5`_: Smallest multiple
+`Problem 5`_ / `Challenge #5`_: Smallest Multiple
 =================================================
 
 2520 is the smallest number that can be divided by each of the numbers from 1
