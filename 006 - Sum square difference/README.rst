@@ -4,9 +4,9 @@
 .. _Challenge #6:
     https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem
 
-===================================================
-`Problem 6`_/`Challenge #6`_: Sum square difference
-===================================================
+=====================================================
+`Problem 6`_ / `Challenge #6`_: Sum square difference
+=====================================================
 
 The sum of the squares of the first ten natural numbers is,
 
