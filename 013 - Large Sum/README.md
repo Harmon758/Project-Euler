@@ -1,6 +1,6 @@
 [Problem 13](https://projecteuler.net/problem=13) /
 [Challenge #13](https://www.hackerrank.com/contests/projecteuler/challenges/euler013/problem):
-Large sum
+Large Sum
 =========
 
 Work out the first ten digits of the sum of the following one-hundred 50-digit
