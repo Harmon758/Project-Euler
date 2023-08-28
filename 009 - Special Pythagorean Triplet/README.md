@@ -1,6 +1,6 @@
 [Problem 9](https://projecteuler.net/problem=9) /
 [Challenge #9](https://www.hackerrank.com/contests/projecteuler/challenges/euler009/problem):
-Special Pythagorean triplet
+Special Pythagorean Triplet
 ===========================
 
 A Pythagorean triplet is a set of three natural numbers, $a \lt b \lt c$, for

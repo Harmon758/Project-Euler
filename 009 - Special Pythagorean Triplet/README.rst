@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler009/problem
 
 ===========================================================
-`Problem 9`_ / `Challenge #9`_: Special Pythagorean triplet
+`Problem 9`_ / `Challenge #9`_: Special Pythagorean Triplet
 ===========================================================
 
 A Pythagorean triplet is a set of three natural numbers, *a* < *b* < *c*, for
