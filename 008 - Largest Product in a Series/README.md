@@ -1,6 +1,6 @@
 [Problem 8](https://projecteuler.net/problem=8) /
 [Challenge #8](https://www.hackerrank.com/contests/projecteuler/challenges/euler008/problem):
-Largest product in a series
+Largest Product in a Series
 ===========================
 
 The four adjacent digits in the $1000$-digit number that have the greatest

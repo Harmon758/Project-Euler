@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler008/problem
 
 ===========================================================
-`Problem 8`_ / `Challenge #8`_: Largest product in a series
+`Problem 8`_ / `Challenge #8`_: Largest Product in a Series
 ===========================================================
 
 The four adjacent digits in the 1000-digit number that have the greatest
