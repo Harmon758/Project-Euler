@@ -16,7 +16,7 @@
 | [10](010%20-%20Summation%20of%20primes)                  | Summation of Primes                | &check; |         | [^1] [^3] |
 | [11](011%20-%20Largest%20product%20in%20a%20grid)        | Largest Product in a Grid          | &check; |         | [^1] [^3] |
 | [12](012%20-%20Highly%20divisible%20triangular%20number) | Highly Divisible Triangular Number | &check; |         | [^1] [^3] |
-| [13](013%20-%20Large%20sum)                              | Large sum                          | &check; |         | [^1]      |
+| [13](013%20-%20Large%20sum)                              | Large Sum                          | &check; |         | [^1] [^3] |
 | [92](092%20-%20Square%20digit%20chains)                  | Square digit chains                | &check; |         | [^1]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
