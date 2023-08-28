@@ -47,4 +47,4 @@ What is the greatest product of four adjacent numbers in the same direction
 `ProjectEuler+ Problem Statement`_
 
 The Project Euler problem is equivalent to the ProjectEuler+ challenge with the
-input given above.
+grid given in the problem.
