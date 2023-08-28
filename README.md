@@ -11,7 +11,7 @@
 | [5](005%20-%20Smallest%20multiple)                       | Smallest Multiple                  | &check; | &check; | [^1] [^3] |
 | [6](006%20-%20Sum%20square%20difference)                 | Sum Square Difference              | &check; |         | [^1] [^3] |
 | [7](007%20-%2010001st%20prime)                           | 10001st Prime                      | &check; | &check; | [^1] [^3] |
-| [8](008%20-%20Largest%20product%20in%20a%20series)       | Largest product in a series        | &check; |         | [^1]      |
+| [8](008%20-%20Largest%20product%20in%20a%20series)       | Largest Product in a Series        | &check; |         | [^1] [^3] |
 | [9](009%20-%20Special%20Pythagorean%20triplet)           | Special Pythagorean triplet        | &check; | &check; | [^1]      |
 | [10](010%20-%20Summation%20of%20primes)                  | Summation of primes                | &check; |         | [^1]      |
 | [11](011%20-%20Largest%20product%20in%20a%20grid)        | Largest product in a grid          | &check; |         | [^1]      |
