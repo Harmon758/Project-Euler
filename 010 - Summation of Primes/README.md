@@ -1,6 +1,6 @@
 [Problem 10](https://projecteuler.net/problem=10) /
 [Challenge #10](https://www.hackerrank.com/contests/projecteuler/challenges/euler010/problem):
-Summation of primes
+Summation of Primes
 ===================
 
 The sum of the primes below $10$ is $2 + 3 + 5 + 7 = 17$.

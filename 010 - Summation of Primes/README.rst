@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler010/problem
 
 =====================================================
-`Problem 10`_ / `Challenge #10`_: Summation of primes
+`Problem 10`_ / `Challenge #10`_: Summation of Primes
 =====================================================
 
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
