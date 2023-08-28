@@ -15,7 +15,7 @@ which,
 
     <p align="center">
         <var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> =
-        <var>c</var><sup>2</sup>
+        <var>c</var><sup>2</sup>.
     </p>
 
 For example, 3\ :sup:`2` + 4\ :sup:`2` = 9 + 16 = 25 = 5\ :sup:`2`.
