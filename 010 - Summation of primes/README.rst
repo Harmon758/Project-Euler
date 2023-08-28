@@ -4,9 +4,9 @@
 .. _Challenge #10:
     https://www.hackerrank.com/contests/projecteuler/challenges/euler010/problem
 
-===================================================
-`Problem 10`_/`Challenge #10`_: Summation of primes
-===================================================
+=====================================================
+`Problem 10`_ / `Challenge #10`_: Summation of primes
+=====================================================
 
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
@@ -18,4 +18,4 @@ Find the sum of all the primes below two million.
 `ProjectEuler+ Problem Statement`_
 
 The Project Euler problem is equivalent to the ProjectEuler+ challenge with
-T = 1 and N = 2000000.
+T = 1 and N = 2 000 000.
