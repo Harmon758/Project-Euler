@@ -4,9 +4,9 @@
 .. _Challenge #8:
     https://www.hackerrank.com/contests/projecteuler/challenges/euler008/problem
 
-=========================================================
-`Problem 8`_/`Challenge #8`_: Largest product in a series
-=========================================================
+===========================================================
+`Problem 8`_ / `Challenge #8`_: Largest product in a series
+===========================================================
 
 The four adjacent digits in the 1000-digit number that have the greatest
 product are 9 × 9 × 8 × 9 = 5832.
