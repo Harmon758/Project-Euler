@@ -1,6 +1,6 @@
 [Problem 11](https://projecteuler.net/problem=11) /
 [Challenge #11](https://www.hackerrank.com/contests/projecteuler/challenges/euler011/problem):
-Largest product in a grid
+Largest Product in a Grid
 =========================
 
 In the $20 \times 20$ grid below, four numbers along a diagonal line have been

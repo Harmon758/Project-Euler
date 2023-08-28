@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler011/problem
 
 ===========================================================
-`Problem 11`_ / `Challenge #11`_: Largest product in a grid
+`Problem 11`_ / `Challenge #11`_: Largest Product in a Grid
 ===========================================================
 
 In the 20×20 grid below, four numbers along a diagonal line have been marked in
