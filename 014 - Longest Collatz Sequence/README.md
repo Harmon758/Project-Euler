@@ -1,6 +1,6 @@
 [Problem 14](https://projecteuler.net/problem=14) /
 [Challenge #14](https://www.hackerrank.com/contests/projecteuler/challenges/euler014/problem):
-Longest Collatz sequence
+Longest Collatz Sequence
 ========================
 
 The following iterative sequence is defined for the set of positive integers:
