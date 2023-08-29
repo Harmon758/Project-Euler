@@ -17,7 +17,7 @@
 | [11](011%20-%20Largest%20product%20in%20a%20grid)        | Largest Product in a Grid          | &check; |         | [^1] [^3] |
 | [12](012%20-%20Highly%20divisible%20triangular%20number) | Highly Divisible Triangular Number | &check; |         | [^1] [^3] |
 | [13](013%20-%20Large%20sum)                              | Large Sum                          | &check; |         | [^1] [^3] |
-| [14](014%20-%20Longest%20Collatz%20sequence)             | Longest Collatz sequence           | &check; |         | [^1]      |
+| [14](014%20-%20Longest%20Collatz%20Sequence)             | Longest Collatz Sequence           | &check; |         | [^1] [^3] |
 | [92](092%20-%20Square%20digit%20chains)                  | Square digit chains                | &check; |         | [^1]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
