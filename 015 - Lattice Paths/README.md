@@ -1,6 +1,6 @@
 [Problem 15](https://projecteuler.net/problem=15) /
 [Challenge #15](https://www.hackerrank.com/contests/projecteuler/challenges/euler015/problem):
-Lattice paths
+Lattice Paths
 =============
 
 Starting in the top left corner of a $2 \times 2$ grid, and only being able to
