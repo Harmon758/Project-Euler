@@ -1,27 +1,24 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-Lengths = []
-Lengths.append(0)
-Lengths.append(1)
-Largest_Number = []
-Largest_Number.append(0)
-Largest_Number.append(1)
-Largest = 0
-for i in range(0, T):
-    N = int(raw_input())
-    for j in range(len(Largest_Number), N + 1):
-        Number = j
-        Count = 0
-        while Number != 1 and Number >= j:
-            if Number % 2 == 0:
-                Number = Number / 2
+lengths = [0, 1]
+longest = 0
+longest_starting_numbers = [0, 1]
+
+T = int(input())
+for test_case in range(T):
+    N = int(input())
+    for starting_number in range(len(longest_starting_numbers), N + 1):
+        number = starting_number
+        count = 0
+        while number != 1 and number >= starting_number:
+            if number % 2:
+                number *= 3
+                number += 1
             else:
-                Number = 3 * Number + 1
-            Count += 1
-        Lengths.insert(j, Count + Lengths[Number])
-        if Lengths[j] >= Largest:
-            Largest = Lengths[j]
-            Largest_Number.insert(j, j)
+                number //= 2
+            count += 1
+        lengths.append(length := count + lengths[number])
+        if length >= longest:
+            longest = length
+            longest_starting_numbers.append(starting_number)
         else:
-            Largest_Number.insert(j, Largest_Number[j - 1])
-    print Largest_Number[N]
+            longest_starting_numbers.append(longest_starting_numbers[-1])
+    print(longest_starting_numbers[N])
