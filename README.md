@@ -21,7 +21,7 @@
 | [15](015%20-%20Lattice%20Paths)                          | Lattice Paths                      | &check; |         | [^2] [^4] |
 | [16](016%20-%20Power%20Digit%20Sum)                      | Power Digit Sum                    | &check; |         | [^1] [^4] |
 | [17](017%20-%20Number%20Letter%20Counts)                 | Number Letter Counts               | &check; |         | [^2] [^5] |
-| [92](092%20-%20Square%20digit%20chains)                  | Square digit chains                | &check; |         | [^2]      |
+| [92](092%20-%20Square%20Digit%20Chains)                  | Square Digit Chains                | &check; |         | [^2] [^4] |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
