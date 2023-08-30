@@ -1,91 +1,51 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-def One_Number(Number):
-    if int(Number) == 1:
-        print "One",
-    elif int(Number) == 2:
-        print "Two",
-    elif int(Number) == 3:
-        print "Three",
-    elif int(Number) == 4:
-        print "Four",
-    elif int(Number) == 5:
-        print "Five",
-    elif int(Number) == 6:
-        print "Six",
-    elif int(Number) == 7:
-        print "Seven",
-    elif int(Number) == 8:
-        print "Eight",
-    elif int(Number) == 9:
-        print "Nine",
+INCLUDE_AND = False
+OUTPUT_1_TO_N_LETTER_COUNT = False
+SCALE_LIMIT = 10 ** 12
 
-def Two_Numbers(Number):
-    if(int(Number) >= 20):
-        if int(Number[0]) == 2:
-            print "Twenty",
-        elif int(Number[0]) == 3:
-            print "Thirty",
-        elif int(Number[0]) == 4:
-            print "Forty",
-        elif int(Number[0]) == 5:
-            print "Fifty",
-        elif int(Number[0]) == 6:
-            print "Sixty",
-        elif int(Number[0]) == 7:
-            print "Seventy",
-        elif int(Number[0]) == 8:
-            print "Eighty",
-        elif int(Number[0]) == 9:
-            print "Ninety",
-        One_Number(Number[1])
-    elif(int(Number) >= 10):
-        if int(Number) == 10:
-            print "Ten",
-        elif int(Number) == 11:
-            print "Eleven",
-        elif int(Number) == 12:
-            print "Twelve",
-        elif int(Number) == 13:
-            print "Thirteen",
-        elif int(Number) == 14:
-            print "Fourteen",
-        elif int(Number) == 15:
-            print "Fifteen",
-        elif int(Number) == 16:
-            print "Sixteen",
-        elif int(Number) == 17:
-            print "Seventeen",
-        elif int(Number) == 18:
-            print "Eighteen",
-        elif int(Number) == 19:
-            print "Nineteen",
+numbers_to_words = {
+    1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven",
+    8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve",
+    13: "Thirteen", 14: "Fourteen", 15: "Fifteen", 16: "Sixteen",
+    17: "Seventeen", 18: "Eighteen", 19: "Nineteen"
+}
+
+tens_digits_to_words = {
+    2: "Twenty", 3: "Thirty", 4: "Forty", 5: "Fifty", 6: "Sixty", 7: "Seventy",
+    8: "Eighty", 9: "Ninety"
+}
+
+short_scale_names = {
+    1000: "Thousand", 1_000_000: "Million", 1_000_000_000: "Billion",
+    1_000_000_000_000: "Trillion"
+}
+
+T = int(input())
+for test_case in range(T):
+    N = int(input())
+    words = []
+    for number in range(1 if OUTPUT_1_TO_N_LETTER_COUNT else N, N + 1):
+        scale = SCALE_LIMIT
+        while scale >= 1:
+            number, scale_remainder = divmod(number, scale)
+            if number:
+                hundreds, hundreds_remainder = divmod(number, 100)
+                if hundreds:
+                    words.append(numbers_to_words[hundreds])
+                    words.append("Hundred")
+                    if INCLUDE_AND and hundreds_remainder:
+                        words.append("And")
+                if hundreds_remainder >= 20:
+                    tens, hundreds_remainder = divmod(hundreds_remainder, 10)
+                    words.append(tens_digits_to_words[tens])
+                if hundreds_remainder:
+                    words.append(numbers_to_words[hundreds_remainder])
+                if scale > 1:
+                    words.append(short_scale_names[scale])
+            scale /= 10 ** 3
+            number = scale_remainder
+    if OUTPUT_1_TO_N_LETTER_COUNT:
+        print(len("".join(words)))
+    elif words:
+        print(' '.join(words))
     else:
-        One_Number(Number[1])
-
-def Three_Numbers(Number):
-    if(int(Number) >= 100):
-        One_Number(Number[0])
-        print "Hundred",
-    Two_Numbers(Number[1:3])
-
-T = int(raw_input())
-for i in range (T):
-    N = raw_input()
-    while len(N) < 12:
-        N = '0' + N
-    if int(N[0:3]) != 0:
-        Three_Numbers(N[0:3])
-        print "Billion",
-    if int(N[3:6]) != 0:
-        Three_Numbers(N[3:6])
-        print "Million",
-    if int(N[6:9]) != 0:
-        Three_Numbers(N[6:9])
-        print "Thousand",
-    if int(N[9:12]) != 0:
-        Three_Numbers(N[9:12])
-    if int(N) == 0:
-        print "Zero"
-    if int(N) == 10 ** 12:
-        print "One Trillion"
-    print
+        print("Zero")
