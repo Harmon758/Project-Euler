@@ -19,8 +19,7 @@ is thought that all starting numbers finish at $1$.
 
 Which starting number, under one million, produces the longest chain?
 
-<b>NOTE:</b> Once the chain starts the terms are allowed to go above one
-million.
+**NOTE:** Once the chain starts the terms are allowed to go above one million.
 
 [ProjectEuler+ Problem Statement](ProjectEuler%2B%20Challenge%20%2314%20Problem%20Statement.pdf)
 
