@@ -5,7 +5,7 @@
     https://www.hackerrank.com/contests/projecteuler/challenges/euler092/problem
 
 =====================================================
-`Problem 92`_ / `Challenge #92`_: Square digit chains
+`Problem 92`_ / `Challenge #92`_: Square Digit Chains
 =====================================================
 
 A number chain is created by continuously adding the square of the digits in a

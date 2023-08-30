@@ -1,6 +1,6 @@
 [Problem 92](https://projecteuler.net/problem=92) /
 [Challenge #92](https://www.hackerrank.com/contests/projecteuler/challenges/euler092/problem):
-Square digit chains
+Square Digit Chains
 ===================
 
 A number chain is created by continuously adding the square of the digits in a
