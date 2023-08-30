@@ -25,4 +25,4 @@ How many starting numbers below ten million will arrive at $89$?
 [ProjectEuler+ Problem Statement](ProjectEuler%2B%20Challenge%20%2392%20Problem%20Statement.pdf)
 
 The Project Euler problem is equivalent to the ProjectEuler+ challenge with
-$K = 7$.
+$K = 7$ and `MODULO = False`.
