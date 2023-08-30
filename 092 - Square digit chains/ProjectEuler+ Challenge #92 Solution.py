@@ -1,31 +1,51 @@
 from math import sqrt
 
-mod = 10 ** 9 + 7
-K = int(input())
-sum_limit = K * 9 ** 2 + 1
+MODULO = 10 ** 9 + 7
 
-arrives_at_89 = {0: False, 1: False, 89: True}
-for number in range(2, sum_limit):
-    if number in arrives_at_89:
+K = int(input())
+max_sum = K * 9 ** 2 + 1
+
+unhappiness = {0: False, 1: False, 89: True}
+for number in range(2, max_sum):
+    if number in unhappiness:
         continue
     chain = []
-    number_arrives_at_89 = None
-    while number_arrives_at_89 is None:
+    unhappy = None
+    while unhappy is None:
         chain.append(number)
-        number = sum(int(digit) ** 2 for digit in str(number))
-        number_arrives_at_89 = arrives_at_89.get(number)
+        sum_of_digits_squared = 0
+        while number:
+            number, remainder = divmod(number, 10)
+            sum_of_digits_squared += remainder * remainder
+        number = sum_of_digits_squared
+        unhappy = unhappiness.get(number)
     for chain_number in chain:
-        arrives_at_89[chain_number] = number_arrives_at_89
+        unhappiness[chain_number] = unhappy
 
-counts = [0] * sum_limit
+sum_numbers_counts = [0] * max_sum
 for digit in range(10):
-    counts[digit * digit] = 1
-new = [0] * (sum_limit)
-for _ in range(2, K + 1):
-    for n in range(min(81, sum_limit)):
-        new[n] = sum(counts[n - d * d] for d in range(int(sqrt(n)) + 1)) % mod
-    for n in range(81, sum_limit):
-        new[n] = sum(counts[n - d * d] for d in range(10)) % mod
-    counts = new.copy()
-count = sum(counts[n] for n in range(sum_limit) if arrives_at_89[n])
-print(count % mod)
+    sum_numbers_counts[digit * digit] = 1
+updated_sum_numbers_counts = [0] * max_sum
+for digit in range(2, K + 1):
+    for digits_squared_sum in range(min(81, max_sum)):
+        updated_sum_numbers_counts[digits_squared_sum] = sum(
+            sum_numbers_counts[digits_squared_sum - digit * digit]
+            for digit in range(int(sqrt(digits_squared_sum)) + 1)
+        )
+        if MODULO:
+            updated_sum_numbers_counts[digits_squared_sum] %= MODULO
+    for digits_squared_sum in range(81, max_sum):
+        updated_sum_numbers_counts[digits_squared_sum] = sum(
+            sum_numbers_counts[digits_squared_sum - digit * digit]
+            for digit in range(10)
+        )
+        if MODULO:
+            updated_sum_numbers_counts[digits_squared_sum] %= MODULO
+    sum_numbers_counts = updated_sum_numbers_counts.copy()
+
+unhappy_count = sum(
+    sum_numbers_counts[digits_squared_sum]
+    for digits_squared_sum in range(max_sum)
+    if unhappiness[digits_squared_sum]
+)
+print(unhappy_count % MODULO if MODULO else unhappy_count)
