@@ -20,7 +20,7 @@
 | [14](014%20-%20Longest%20Collatz%20Sequence)             | Longest Collatz Sequence           | &check; |         | [^1] [^4] |
 | [15](015%20-%20Lattice%20Paths)                          | Lattice Paths                      | &check; |         | [^2] [^4] |
 | [16](016%20-%20Power%20Digit%20Sum)                      | Power Digit Sum                    | &check; |         | [^1] [^4] |
-| [17](017%20-%20Number%20letter%20counts)                 | Number letter counts               | &check; |         | [^2]      |
+| [17](017%20-%20Number%20Letter%20Counts)                 | Number Letter Counts               | &check; |         | [^2] [^5] |
 | [92](092%20-%20Square%20digit%20chains)                  | Square digit chains                | &check; |         | [^1]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
@@ -30,3 +30,4 @@
 [^4]: Project Euler Problem (Descriptions /) Titles previously did not use title case:
       https://web.archive.org/web/20230528105433/https://projecteuler.net/archives.
       This is still reflected in the ProjectEuler+ Challenge name.
+[^5]: The ProjectEuler+ Challenge has a different name: "Number to Words"
