@@ -20,6 +20,7 @@
 | [14](014%20-%20Longest%20Collatz%20Sequence)             | Longest Collatz Sequence           | &check; |         | [^1] [^4] |
 | [15](015%20-%20Lattice%20Paths)                          | Lattice Paths                      | &check; |         | [^2] [^4] |
 | [16](016%20-%20Power%20Digit%20Sum)                      | Power Digit Sum                    | &check; |         | [^1] [^4] |
+| [17](017%20-%20Number%20letter%20counts)                 | Number letter counts               | &check; |         | [^2]      |
 | [92](092%20-%20Square%20digit%20chains)                  | Square digit chains                | &check; |         | [^1]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
