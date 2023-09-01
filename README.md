@@ -21,6 +21,7 @@
 | [15](015%20-%20Lattice%20Paths)                          | Lattice Paths                      | &check; |         | [^2] [^5] |
 | [16](016%20-%20Power%20Digit%20Sum)                      | Power Digit Sum                    | &check; |         | [^1] [^5] |
 | [17](017%20-%20Number%20Letter%20Counts)                 | Number Letter Counts               | &check; |         | [^2] [^6] |
+| [69](069%20-%20Totient%20Maximum)                        | Totient Maximum                    | &check; |         | [^2] [^5] |
 | [92](092%20-%20Square%20Digit%20Chains)                  | Square Digit Chains                | &check; |         | [^2] [^5] |
 | [684](684%20-%20Inverse%20Digit%20Sum)                   | Inverse Digit Sum                  | &check; |         | [^3]      |
 | [836](836%20-%20A%20Bold%20Proposition)                  | A Bold Proposition                 | &cross; | &cross; | [^3] [^7] |
