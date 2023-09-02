@@ -1,6 +1,6 @@
 [Problem 67](https://projecteuler.net/problem=67) /
 [Challenge #67](https://www.hackerrank.com/contests/projecteuler/challenges/euler067/problem):
-Maximum path sum II
+Maximum Path Sum II
 ===================
 
 By starting at the top of the triangle below and moving to adjacent numbers on
