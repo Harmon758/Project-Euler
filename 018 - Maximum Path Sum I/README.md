@@ -37,7 +37,7 @@ Find the maximum total from top to bottom of the triangle below:
 
 **NOTE:** As there are only 16384 routes, it is possible to solve this problem
 by trying every route. However,
-[Problem 67](/067%20-%20Maximum%20path%20sum%20II), is the same challenge with
+[Problem 67](/067%20-%20Maximum%20Path%20Sum%20II), is the same challenge with
 a triangle containing one-hundred rows; it cannot be solved by brute force, and
 requires a clever method! ;o)
 
