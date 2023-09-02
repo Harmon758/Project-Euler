@@ -25,6 +25,7 @@
 | [92](092%20-%20Square%20Digit%20Chains)                  | Square Digit Chains                | &check; |         | [^2] [^5] |
 | [684](684%20-%20Inverse%20Digit%20Sum)                   | Inverse Digit Sum                  | &check; |         | [^3]      |
 | [836](836%20-%20A%20Bold%20Proposition)                  | A Bold Proposition                 | &cross; | &cross; | [^3] [^7] |
+| [852](852%20-%20Coins%20in%20a%20Box)                    | Coins in a Box                     |         |         | [^3]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
