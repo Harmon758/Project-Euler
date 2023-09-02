@@ -1,9 +1,11 @@
-Triangle_File = open("0067_triangle.txt",'r')
-Triangle = []
-for Line in Triangle_File.readlines():
-	Triangle.append(map(int, Line.split()))
-for Row in range(99, 0, -1):
-	for Column in range(Row):
-		Triangle[Row - 1][Column] += max(Triangle[Row][Column], Triangle[Row][Column + 1])
-print Triangle[0][0]
-Wait = raw_input()
+triangle = []
+with open("0067_triangle.txt",'r') as triangle_file:
+    for line in triangle_file:
+        triangle.append(list(map(int, line.split())))
+
+for row in range(len(triangle) - 1, 0, -1):
+    for column in range(row):
+        triangle[row - 1][column] += max(
+            triangle[row][column], triangle[row][column + 1]
+        )
+print(triangle[0][0])
