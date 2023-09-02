@@ -1,4 +1,4 @@
-Triangle_File = open("p067_triangle.txt",'r')
+Triangle_File = open("0067_triangle.txt",'r')
 Triangle = []
 for Line in Triangle_File.readlines():
 	Triangle.append(map(int, Line.split()))
