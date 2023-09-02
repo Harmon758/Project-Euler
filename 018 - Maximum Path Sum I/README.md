@@ -1,6 +1,6 @@
 [Problem 18](https://projecteuler.net/problem=18) /
 [Challenge #18](https://www.hackerrank.com/contests/projecteuler/challenges/euler018/problem):
-Maximum path sum I
+Maximum Path Sum I
 ==================
 
 By starting at the top of the triangle below and moving to adjacent numbers on
