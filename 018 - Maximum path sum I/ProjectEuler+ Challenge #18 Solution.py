@@ -1,21 +1,13 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-T = int(raw_input())
-for i in range(T):
-    Triangle = []
-    Largest = 0
-    N = int(raw_input())
-    for j in range(1, N + 1):
-        Triangle.append(map(int, raw_input().split()))
-    for j in range(2 ** (N - 1)):
-        Offset = 0
-        Sum = Triangle[0][0]
-        Binary = bin(j)
-        Binary = Binary[2:]
-        while len(Binary) < N:
-            Binary = '0' + Binary
-        for k in range(1, N):
-            Offset += int(Binary[k])
-            Sum += Triangle[k][Offset]
-        if Sum > Largest:
-            Largest = Sum
-    print Largest
+T = int(input())
+for testcase in range(T):
+    triangle = []
+    N = int(input())
+    for i in range(N):
+        triangle.append(list(map(int, input().split())))
+
+    for row in range(N - 1, 0, -1):
+        for column in range(row):
+            triangle[row - 1][column] += max(
+                triangle[row][column], triangle[row][column + 1]
+            )
+    print(triangle[0][0])
