@@ -1,26 +1,30 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
 import datetime
 
-T = int(raw_input())
-for i in range(T):
-    Count = 0
-    Y1, M1, D1 = map(int, raw_input().split())
-    Y2, M2, D2 = map(int, raw_input().split())
-    if Y1 % 10000 > Y2 % 10000:
-        Y1 -= 1200
-        Y2 -= 1200
-    Y1 = Y1 % 10000
-    Y2 = Y2 % 10000
-    D1 = datetime.date(Y1, M1, D1)
-    D2 = datetime.date(Y2, M2, D2)
-    while D1 <= D2:
-        while D1.day != 1:
-            D1 += datetime.timedelta(days = 1)
-        if D1.weekday() == 6:
-            Count += 1
-        if(D1.month == 12):
-            D1 = D1.replace(year = D1.year + 1)
-            D1 = D1.replace(month = 1)
+T = int(input())
+for test_case in range(T):
+    Y_1, M_1, D_1 = map(int, input().split())
+    Y_2, M_2, D_2 = map(int, input().split())
+
+    Y_difference = Y_2 - Y_1
+    Y_1 %= 400
+    Y_1 += 400
+    Y_2 = Y_1 + Y_difference
+
+    first_of_the_month_sunday_count = 0
+
+    if D_1 == 1:
+        date = datetime.date(Y_1, M_1, 1)
+    elif M_1 == 12:
+        date = datetime.date(Y_1 + 1, 1, 1)
+    else:
+        date = datetime.date(Y_1, M_1 + 1, 1)
+
+    while date <= datetime.date(Y_2, M_2, D_2):
+        if date.isoweekday() == 7:
+            first_of_the_month_sunday_count += 1
+        if date.month == 12:
+            date = date.replace(year = date.year + 1, month = 1)
         else:
-            D1 = D1.replace(month = D1.month + 1)
-    print Count
+            date = date.replace(month = date.month + 1)
+
+    print(first_of_the_month_sunday_count)
