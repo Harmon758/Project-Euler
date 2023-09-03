@@ -1,6 +1,6 @@
 [Problem 20](https://projecteuler.net/problem=20) /
 [Challenge #20](https://www.hackerrank.com/contests/projecteuler/challenges/euler020/problem):
-Factorial digit sum
+Factorial Digit Sum
 ===================
 
 $n!$ means $n \times (n - 1) \times \cdots \times 3 \times 2 \times 1$.
