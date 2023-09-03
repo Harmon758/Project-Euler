@@ -22,6 +22,7 @@
 | [16](016%20-%20Power%20Digit%20Sum)                      | Power Digit Sum                    | &check; |         | [^1] [^6] |
 | [17](017%20-%20Number%20Letter%20Counts)                 | Number Letter Counts               | &check; |         | [^2] [^7] |
 | [18](018%20-%20Maximum%20Path%20Sum%20I)                 | Maximum Path Sum I                 | &check; |         | [^1] [^6] |
+| [19](019%20-%20Counting%20Sundays)                       | Counting Sundays                   | &check; |         | [^1]      |
 | [67](067%20-%20Maximum%20Path%20Sum%20II)                | Maximum Path Sum II                | &check; |         | [^3] [^6] |
 | [69](069%20-%20Totient%20Maximum)                        | Totient Maximum                    | &check; |         | [^2] [^6] |
 | [92](092%20-%20Square%20Digit%20Chains)                  | Square Digit Chains                | &check; |         | [^2] [^6] |
