@@ -32,6 +32,7 @@
 | [751](751%20-%20Concatenation%20Coincidence)             | Concatenation Coincidence          | &check; |         | [^4]      |
 | [836](836%20-%20A%20Bold%20Proposition)                  | A Bold Proposition                 | &cross; | &cross; | [^4] [^8] |
 | [852](852%20-%20Coins%20in%20a%20Box)                    | Coins in a Box                     |         |         | [^4]      |
+| [855](855%20-%20Delphi%20Paper)                          | Delphi Paper                       |         |         | [^4]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
