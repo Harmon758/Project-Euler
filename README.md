@@ -28,7 +28,7 @@
 | [69](069%20-%20Totient%20Maximum)                                        | Totient Maximum                           | &check; |         | [^2] [^6] |
 | [92](092%20-%20Square%20Digit%20Chains)                                  | Square Digit Chains                       | &check; |         | [^2] [^6] |
 | [317](317%20-%20Firecracker)                                             | Firecracker                               | &check; |         | [^4]      |
-| [457](457%20-%20A%20polynomial%20modulo%20the%20square%20of%20a%20prime) | A polynomial modulo the square of a prime |         |         | [^4]      |
+| [457](457%20-%20A%20Polynomial%20Modulo%20the%20Square%20of%20a%20Prime) | A Polynomial Modulo the Square of a Prime |         |         | [^4]      |
 | [487](487%20-%20Sums%20of%20Power%20Sums)                                | Sums of Power Sums                        |         |         | [^4]      |
 | [499](499%20-%20St.%20Petersburg%20Lottery)                              | St. Petersburg Lottery                    | &check; |         | [^4]      |
 | [506](506%20-%20Clock%20Sequence)                                        | Clock Sequence                            | &check; |         | [^4]      |
