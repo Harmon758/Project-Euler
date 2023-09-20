@@ -1,5 +1,5 @@
 [Problem 457](https://projecteuler.net/problem=457):
-A polynomial modulo the square of a prime
+A Polynomial Modulo the Square of a Prime
 =========================================
 
 Let $f(n) = n^2 - 3n - 1$.  
