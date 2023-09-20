@@ -1,4 +1,4 @@
-[Problem 487](https://projecteuler.net/problem=487): Sums of power sums
+[Problem 487](https://projecteuler.net/problem=487): Sums of Power Sums
 =======================================================================
 
 Let $f_k(n)$ be the sum of the $k$<sup>th</sup> powers of the first $n$
