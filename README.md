@@ -35,6 +35,7 @@
 | [684](684%20-%20Inverse%20Digit%20Sum)                                   | Inverse Digit Sum                         | &check; |         | [^4]      |
 | [719](719%20-%20Number%20Splitting)                                      | Number Splitting                          | &check; |         | [^4]      |
 | [751](751%20-%20Concatenation%20Coincidence)                             | Concatenation Coincidence                 | &check; |         | [^4]      |
+| [822](822%20-%20Square%20the%20Smallest)                                 | Square the Smallest                       | &check; |         | [^4]      |
 | [836](836%20-%20A%20Bold%20Proposition)                                  | A Bold Proposition                        | &cross; | &cross; | [^4] [^8] |
 | [852](852%20-%20Coins%20in%20a%20Box)                                    | Coins in a Box                            |         |         | [^4]      |
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^4]      |
