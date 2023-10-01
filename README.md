@@ -40,6 +40,7 @@
 | [836](836%20-%20A%20Bold%20Proposition)                                  | A Bold Proposition                        | &cross; | &cross; | [^4] [^5] |
 | [852](852%20-%20Coins%20in%20a%20Box)                                    | Coins in a Box                            |         |         | [^5]      |
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^5]      |
+| [857](857%20-%20Beautiful%20Graphs)                                      | Beautiful Graphs                          |         |         | [^5]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
