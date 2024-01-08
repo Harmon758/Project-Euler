@@ -41,6 +41,7 @@
 | [852](852%20-%20Coins%20in%20a%20Box)                                    | Coins in a Box                            |         |         | [^5]      |
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^5]      |
 | [857](857%20-%20Beautiful%20Graphs)                                      | Beautiful Graphs                          |         |         | [^5]      |
+| [870](870%20-%20Stone%20Game%20IV)                                       | Stone Game IV                             |         |         | [^5]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
