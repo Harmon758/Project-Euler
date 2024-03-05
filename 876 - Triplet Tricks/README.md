@@ -19,7 +19,7 @@ For example, $f(6, 10, 35) = 3$:
 
 However, $f(6, 10, 36) = 0$ as no series of operations leads to a zero number.
 
-Also define $\displaystyle F(a, b) = \sum_{c=1}^\infty f(a, b, c)$.
+Also define $\displaystyle F(a, b) = \sum_{c = 1}^\infty f(a, b, c)$.
 You are given $F(6, 10) = 17$ and $F(36, 100) = 179$.
 
-Find $\displaystyle \sum_{k=1}^{18} F(6^k, 10^k)$.
+Find $\displaystyle \sum_{k = 1}^{18} F(6^k, 10^k)$.
