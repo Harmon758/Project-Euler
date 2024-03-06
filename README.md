@@ -42,6 +42,7 @@
 | [852](852%20-%20Coins%20in%20a%20Box)                                    | Coins in a Box                            |         |         | [^5]      |
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^5]      |
 | [857](857%20-%20Beautiful%20Graphs)                                      | Beautiful Graphs                          |         |         | [^5]      |
+| [864](864%20-%20Square%20%2B%201%20%3D%20Squarefree)                     | Square + 1 = Squarefree                   |         |         | [^5]      |
 | [870](870%20-%20Stone%20Game%20IV)                                       | Stone Game IV                             |         |         | [^5]      |
 | [876](876%20-%20Triplet%20Tricks)                                        | Triplet Tricks                            |         |         | [^5]      |
 | [880](880%20-%20Nested%20Radicals)                                       | Nested Radicals                           |         |         | [^5]      |
