@@ -45,6 +45,7 @@
 | [864](864%20-%20Square%20%2B%201%20%3D%20Squarefree)                     | Square + 1 = Squarefree                   |         |         | [^5]      |
 | [870](870%20-%20Stone%20Game%20IV)                                       | Stone Game IV                             |         |         | [^5]      |
 | [876](876%20-%20Triplet%20Tricks)                                        | Triplet Tricks                            |         |         | [^5]      |
+| [879](879%20-%20Touch-screen%20Password)                                 | Touch-screen Password                     |         |         | [^5]      |
 | [880](880%20-%20Nested%20Radicals)                                       | Nested Radicals                           |         |         | [^5]      |
 | [881](881%20-%20Divisor%20Graph%20Width)                                 | Divisor Graph Width                       |         |         | [^5]      |
 | [882](882%20-%20Removing%20Bits)                                         | Removing Bits                             |         |         | [^5]      |
