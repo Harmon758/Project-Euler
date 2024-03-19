@@ -47,6 +47,7 @@
 | [876](876%20-%20Triplet%20Tricks)                                        | Triplet Tricks                            |         |         | [^5]      |
 | [880](880%20-%20Nested%20Radicals)                                       | Nested Radicals                           |         |         | [^5]      |
 | [881](881%20-%20Divisor%20Graph%20Width)                                 | Divisor Graph Width                       |         |         | [^5]      |
+| [882](882%20-%20Removing%20Bits)                                         | Removing Bits                             |         |         | [^5]      |
 
 [^1]: Project Euler Problem solved through ProjectEuler+ Challenge code
 [^2]: Project Euler Problem solved through ProjectEuler+ Challenge code, with adjustment of constant variable(s)
