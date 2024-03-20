@@ -43,6 +43,7 @@
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^5]      |
 | [857](857%20-%20Beautiful%20Graphs)                                      | Beautiful Graphs                          |         |         | [^5]      |
 | [864](864%20-%20Square%20%2B%201%20%3D%20Squarefree)                     | Square + 1 = Squarefree                   |         |         | [^5]      |
+| [867](867%20-%20Tiling%20Dodecagon)                                      | Tiling Dodecagon                          |         |         | [^5]      |
 | [870](870%20-%20Stone%20Game%20IV)                                       | Stone Game IV                             |         |         | [^5]      |
 | [876](876%20-%20Triplet%20Tricks)                                        | Triplet Tricks                            |         |         | [^5]      |
 | [879](879%20-%20Touch-screen%20Password)                                 | Touch-screen Password                     |         |         | [^5]      |
