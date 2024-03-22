@@ -38,6 +38,7 @@
 | [751](751%20-%20Concatenation%20Coincidence)                             | Concatenation Coincidence                 | &check; |         | [^5]      |
 | [822](822%20-%20Square%20the%20Smallest)                                 | Square the Smallest                       | &check; |         | [^5]      |
 | [836](836%20-%20A%20Bold%20Proposition)                                  | A Bold Proposition                        | &cross; | &cross; | [^4] [^5] |
+| [850](850%20-%20Fractions%20of%20Powers)                                 | Fractions of Powers                       |         |         | [^5]      |
 | [851](851%20-%20SOP%20and%20POS)                                         | SOP and POS                               |         |         | [^5]      |
 | [852](852%20-%20Coins%20in%20a%20Box)                                    | Coins in a Box                            |         |         | [^5]      |
 | [855](855%20-%20Delphi%20Paper)                                          | Delphi Paper                              |         |         | [^5]      |
